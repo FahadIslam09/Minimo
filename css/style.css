@@ -300,6 +300,18 @@ footer {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .nav_close {
+        top: 23px;
+        right: 35px;
+    }
+
+    .nav_menu {
+        padding-left: 50px;
+        
+    }
+}
+
 @media screen and (max-width: 750px) {
 
     .featured_article,
@@ -309,6 +321,10 @@ footer {
 
     .article_section {
         padding-top: 20px;
+    }
+
+    .article_section_2 {
+        padding-top: 60px;
     }
 
     .article {
@@ -344,5 +360,17 @@ footer {
 
     .footer_link {
         margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .nav_close {
+        top: 23px;
+        right: 35px;
+    }
+
+    .nav_menu {
+        padding-left: 25px;
+        
     }
 }
